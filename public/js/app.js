@@ -1,7 +1,3 @@
-console.log('loaded from app.js from public/js folder')
-
-
-
 const weatherForm = document.querySelector('form')
 
 
