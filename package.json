@@ -1,7 +1,7 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "web-server to serve weather app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "node": "10.3.0"
   },
   "keywords": [],
-  "author": "",
+  "author": "Saravanan Shanmugam",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
