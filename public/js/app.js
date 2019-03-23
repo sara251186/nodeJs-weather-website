@@ -23,7 +23,7 @@ weatherForm.addEventListener('submit', (e) => {
             }
             else {
                 
-                weatherSuccess.textContent = `Temperature is ${data.temperature} & Forecast is ${data.summary}`
+                weatherSuccess.textContent = `Temperature is ${data.temperature} in ${data.cityName} & Forecast is ${data.summary}`
             }
         })
     })
