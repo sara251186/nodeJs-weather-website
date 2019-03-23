@@ -12,6 +12,8 @@ const weatherUtil = require('./utils/weatherUtil');
 //create application
 const app = express();
 
+const port = process.env.PORT || 3000 ;
+
 //grab the public directory  & view directory & partials
 const publicDirectory = path.join(__dirname, '../public');
 const customViewsPath = path.join(__dirname, '../templates/views')
@@ -104,6 +106,6 @@ app.get('*', (req, resp) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('serving on the port ' + 3000)
+app.listen(port, () => {
+    console.log('serving on the port ' + port);
 });

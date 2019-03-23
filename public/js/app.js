@@ -11,7 +11,8 @@ weatherForm.addEventListener('submit', (e) => {
     weatherSuccess.textContent =''
     weatherFailure.textContent =''
 
-    const url = 'http://localhost:3000/weather?address=' + location.value;
+    //give relative path
+    const url = '/weather?address=' + location.value;
     weatherSuccess.textContent = 'loading....'
 
     fetch(url).then((response) => {
