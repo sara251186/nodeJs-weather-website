@@ -4,7 +4,7 @@
   "description": "web-server to serve weather app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Success: no test specified\" && exit 0",
+    "test": "echo \"************* TEST STATUS SUCCESS\" && exit 0",
     "start": "nohup node src/app.js",
     "dev": "nodemon src/app.js -e js,hbs,css"
   },
