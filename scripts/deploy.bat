@@ -1,4 +1,5 @@
 @echo off
+chdir /D "%USERPROFILE%"
 cd
 mkdir Production
 cd production
