@@ -1,5 +1,5 @@
 @echo off
-cd "c:\Users\saravanan"
+cd "c:\Users\saravanan\nodeServer"
 mkdir Production
 cd production
 git clone "https://github.com/sara251186/nodeJs-weather-website.git"
