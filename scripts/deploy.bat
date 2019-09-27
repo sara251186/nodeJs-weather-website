@@ -1,4 +1,9 @@
 @echo off
-ssh root@157.245.219.108
-su - appadmin
-ls -la
+#!/bin/sh
+ssh root@167.71.251.28 <<EOF
+ cd ~/node-app
+ git pull
+ npm install — production
+ pm2 restart all
+ exit
+EOF
