@@ -1,6 +1,6 @@
 @echo off
 cd
-chdir /D "%USERPROFILE%"
+chdir /D "c:\Users\saravanan"
 mkdir Production
 cd production
 cd
