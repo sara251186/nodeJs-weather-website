@@ -39,7 +39,7 @@ app.use(express.static(publicDirectory))
 //using template enginer - hbs view
 app.get('/', (req, resp) => {
     resp.render('index', {
-        title: 'Weather Application',
+        title: 'Weather Application post Build',
         createdBy: 'Saravanan Shanmugam'
     });
 })
